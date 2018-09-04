@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { LandingContentComponent } from './landing-content/landing-content.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingContentComponent
   ],
   imports: [
     BrowserModule
