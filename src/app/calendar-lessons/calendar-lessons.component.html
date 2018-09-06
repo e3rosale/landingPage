@@ -1,0 +1,20 @@
+<div id='calendar_lesson_container'>
+  <div id='calendar_lesson_header_nav'>
+    <div class='left'>
+      <div class='left_btn_container'>
+        <img class='left_arrow_img' src='assets/icons/left_arrow.png'>
+      </div>
+    </div>
+    <div class='center'>
+      <p>Today</p>
+    </div>
+    <div class='right'>
+      <div class='right_btn_container'>
+        <img class='right_arrow_img' src='assets/icons/right_arrow.png'>
+      </div>
+    </div>
+  </div>
+  <div class='lesson_container' *ngFor='let item of [0,1,2]'>
+      <app-lesson-container></app-lesson-container>
+  </div>
+</div>

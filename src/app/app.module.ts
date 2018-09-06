@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { LandingContentComponent } from './landing-content/landing-content.component';
+import { CalendarLessonsComponent } from './calendar-lessons/calendar-lessons.component';
+import { LessonContainerComponent } from './lesson-container/lesson-container.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingContentComponent
+    CalendarLessonsComponent,
+    LessonContainerComponent
   ],
   imports: [
     BrowserModule

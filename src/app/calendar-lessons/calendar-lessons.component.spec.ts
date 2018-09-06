@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LandingContentComponent } from './landing-content.component';
+import { CalendarLessonsComponent } from './calendar-lessons.component';
 
-describe('LandingContentComponent', () => {
-  let component: LandingContentComponent;
-  let fixture: ComponentFixture<LandingContentComponent>;
+describe('CalendarLessonsComponent', () => {
+  let component: CalendarLessonsComponent;
+  let fixture: ComponentFixture<CalendarLessonsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LandingContentComponent ]
+      declarations: [ CalendarLessonsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LandingContentComponent);
+    fixture = TestBed.createComponent(CalendarLessonsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

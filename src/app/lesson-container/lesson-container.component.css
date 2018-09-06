@@ -1,0 +1,117 @@
+.lesson_container {
+  width: 100%;
+  height: 180px;
+  /* border: 1px solid black; */
+}
+
+.lesson_grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: .25fr 1fr 1fr 1fr 1fr 1fr 1fr .25fr;
+  grid-template-columns: 30px 60px 20px 1fr 1fr 30px;
+  grid-template-areas: 
+    '. startTime . . . .'
+    '. startTime startTimeBorder thumbnail description .'
+    '. . . thumbnail description .'
+    '. middleTime middleTimeBorderTop thumbnail description .'
+    '. middleTime middleTimeBorderBottom thumbnail description .'
+    '. . . thumbnail description .'
+    '. endTime endTimeBorder thumbnail description .'
+    '. endTime . . . .'
+    ;
+}
+
+.thumbnail_area {
+  grid-area: thumbnail;
+}
+
+.description_area {
+  grid-area: description;
+}
+
+#thumbnail {
+  border: 1px solid #9b9b9b;
+}
+
+#description {
+  background-color: #fcfcfc;
+  border-top:1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
+  border-right: 1px solid #9b9b9b;
+}
+
+.startTime_area {
+  grid-area: startTime;
+}
+
+.middleTime_area {
+  grid-area: middleTime;
+}
+
+.endTime_area {
+  grid-area: endTime;
+}
+
+#startTime {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#middleTime {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#endTime {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startTimeBorder_area {
+  grid-area: startTimeBorder;
+}
+
+#startTimeBorder {
+  /* background-color: blue; */
+  border-top: 1px solid #9b9b9b;
+}
+
+.middleTimeBorderTop_area {
+  grid-area: middleTimeBorderTop;
+}
+
+#middleTimeBorderTop {
+  /* background-color: red; */
+  border-bottom: 1px solid #9b9b9b;
+}
+
+.middleTimeBorderBottom_area {
+  grid-area: middleTimeBorderBottom
+}
+
+#middleTimeBorderBottom {
+  /* background-color: blue; */
+  /* border-top: .5px solid #9b9b9b; */
+}
+
+.endTimeBorder_area {
+  grid-area: endTimeBorder;  
+}
+
+#endTimeBorder {
+  /* background-color: red; */
+  border-bottom: 1px solid #9b9b9b;
+}
+
+.thumbnail_img {
+  width: 100%;
+  height: 100%;
+  /* height: 100%; */
+}

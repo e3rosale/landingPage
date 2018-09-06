@@ -1,0 +1,78 @@
+#calendar_lesson_container {
+  width: 100%;
+  /* height: 450px; */
+  height: auto;
+  /* border: 1px solid black; */
+  background-color: white;
+}
+
+#calendar_lesson_header_nav {
+  width: 100%;
+  height: 80px;
+  /* background-color: blue; */
+  display: flex;
+}
+
+.left {
+  width: 100px;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: calc(100% - 200px);
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center p {
+  font-size: 22px;
+}
+
+.right {
+  width: 100px;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_btn_container {
+  width: 70%;
+  height: 70%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_btn_container {
+  width: 70%;
+  height: 70%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_arrow_img {
+  width: 35px;
+}
+
+.right_arrow_img {
+  width: 35px;
+}
+
+.lesson_container {
+  width: 100%;
+  height: auto;
+  /* height: 180px; */
+  /* border: 1px solid black; */
+}
