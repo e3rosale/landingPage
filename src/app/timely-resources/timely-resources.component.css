@@ -1,0 +1,10 @@
+#timely_resource_container {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+.resource_container {
+  width: 100%;
+  height: auto;
+}

@@ -4,6 +4,10 @@
   /* border: 1px solid black; */
 }
 
+.lesson_container p {
+  margin: 0;
+}
+
 .lesson_grid {
   width: 100%;
   height: 100%;
@@ -35,10 +39,37 @@
 }
 
 #description {
-  background-color: #fcfcfc;
+  background-color: red;
+  /* background-color: #fcfcfc; */
   border-top:1px solid #9b9b9b;
   border-bottom: 1px solid #9b9b9b;
   border-right: 1px solid #9b9b9b;
+  overflow: hidden;
+}
+
+.lesson_title {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.lesson_title p {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.lesson_description {
+  width: 100%;
+  height: 70%;
+  background-color: blue;
+}
+
+.lesson_description p {
+  margin-left: 20px;
 }
 
 .startTime_area {
